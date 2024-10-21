@@ -43,7 +43,7 @@ def get_volvo_app_version():
         return "5.37.0"
 
 def get_token_path():
-    token_path = ".token"
+    token_path = "/data/.token"
     if os.environ.get("IS_HA_ADDON"):
         check_existing_folder("/addons/volvo2mqtt/token/")
         token_path = "/addons/volvo2mqtt/token/.token"
