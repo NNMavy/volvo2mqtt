@@ -1,3 +1,19 @@
+## v1.10.5
+### 🐛 Bug Fixes:
+
+- Fix interior and exterior images if more than one car is in use
+
+## v1.10.4
+### 🐛 Bug Fixes:
+
+- re-fix bug if app needs to be re-authenticated with OTP while runtime
+
+## v1.10.3
+### 🐛 Bug Fixes:
+
+- Add more info logging for credential refresh process
+- Fix bug if app needs to be re-authenticated with OTP while runtime
+ 
 ## v1.10.2
 ### 🐛 Bug Fixes:
 
